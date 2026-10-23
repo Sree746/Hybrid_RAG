@@ -1,0 +1,28 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local data and indexes
+data/chroma/
+data/processed/
+data/raw/
+
+# Evaluation outputs
+evals/results/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
